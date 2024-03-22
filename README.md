@@ -4,7 +4,8 @@ The use of python Amodem for sending a file via RF using HackRF
 ![image](https://github.com/YD1RUH/HackRF-AmodemSendFile-ImGui/blob/main/HackRF-AmodemSendFile.jpg)
 
 ## Requirement
-- Linux Operating System 
+- Linux Operating System
+- HackRF One
 - python3 : `sudo apt install python3`
 - xterm : `sudo apt install xterm`
 - Python Amodem : `pip3 install amodem`
