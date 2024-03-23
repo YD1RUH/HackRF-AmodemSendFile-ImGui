@@ -28,5 +28,14 @@ If you want to create virtual sink audio follow this step:
 - make all file executable `chmod +x *`
 - Open terminal, then run `./AmodemSendFile-ImGUI`
 
+## How To Calibrate
+### two side with hackrf each side
+- left side run `./AmodemSendFile-ImGUI` then run Calibrate_tx
+- right side run `./AmodemSendFile-ImGUI` then run Calibrate_rx
+### two side with left side HackRF right side rtlsdr
+- left side run `./AmodemSendFile-ImGUI` then run Calibrate_tx
+- right side open terminal then open sdr software **gqrx**, **sdr++**, **etc**
+- right side open terminal run `export BITRATE=[same as the left side]; amodem recv calibrate`
+
 ## Notice
 - make sure set all input and output audio at level **80%**
