@@ -39,3 +39,12 @@ If you want to create virtual sink audio follow this step:
 
 ## Notice
 - make sure set all input and output audio at level **80%**
+
+## Contributors
+
+[//]: contributor-faces
+
+<a href="https://github.com/YD1RUH"><img src="https://avatars.githubusercontent.com/u/32731955?v=3" title="YD1RUH" width="40" height="40"></a>
+<a href="https://github.com/alphafox02"><img src="https://avatars.githubusercontent.com/u/44436101?v=3" title="alphafox02" width="40" height="40"></a>
+
+[//]: contributor-faces
