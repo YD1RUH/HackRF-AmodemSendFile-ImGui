@@ -41,6 +41,7 @@ here's the optional module list:
 - soapysdr-module-uhd
 - uhd
 - volk
+
 To install the module, just run: \
 `conda install [you desire gnuradio module]` \
 example: \
