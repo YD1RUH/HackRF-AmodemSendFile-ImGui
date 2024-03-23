@@ -15,6 +15,8 @@ The use of python Amodem for sending a file via RF using HackRF
 - SoapySDR : [Installation guide](https://github.com/pothosware/SoapySDR/wiki/BuildGuide#get-the-source-code)
 - SoapySDR HackRF : [Installation guide](https://github.com/pothosware/SoapyHackRF/wiki#building-soapy-hack-rf)
 
+**Note**, if you have installed older gnuradio and you want to **install gnuradio3.10 instead your older version gnuradio** without break you system [follow this step](https://github.com/YD1RUH/HackRF-AmodemSendFile-ImGui/blob/main/Install_GNUradio3.10_instead_your_GNUradio_default_version.md)
+
 ## Additional
 If you want to create virtual sink audio follow this step:
 - install depencies `sudo apt-get install pavucontrol portaudio19-dev`
