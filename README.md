@@ -25,6 +25,7 @@ If you want to create virtual sink audio follow this step:
 ### two side with hackrf each side
 - left side run `./AmodemSendFile-ImGUI` then open **Menu** and click **Calibrate TX**
 - right side run `./AmodemSendFile-ImGUI` then open **Menu** and click **Calibrate RX**
+- Do it again vice versa left side **Calibrate RX** and right side **Calibrate TX**
 ### two side with left side HackRF right side rtlsdr
 - left side run `./AmodemSendFile-ImGUI` then open **Menu** and click **Calibrate TX**
 - right side open terminal then open sdr software **gqrx**, **sdr++**, **etc**
