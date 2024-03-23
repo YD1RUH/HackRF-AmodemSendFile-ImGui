@@ -1,6 +1,7 @@
 # Install GNUradio 3.10 instead your GNUradio default version
 refference : [link](https://wiki.gnuradio.org/index.php?title=CondaInstall)
-if you need install GNUradio 3.10 instead your version and not break your environtment, Please follow this step
+
+If you need install GNUradio 3.10 instead your version and not break your environtment, Please follow this step
 
 ## Install conda and create gnuradio environtment
 1. download conda installation file: [link](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh)
