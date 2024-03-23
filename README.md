@@ -41,6 +41,7 @@ If you want to create virtual sink audio follow this step:
 - right side open terminal then open sdr software **gqrx**, **sdr++**, **etc**
 - right side set sdr software frequency same as transmit side
 - right side open terminal run `export BITRATE=[same as the left side]; bash listen.sh`
+
 **Hackrf (run after the listener is ready)**
 - left side run `./AmodemSendFile-ImGUI` then click **select & send file**
 - choose file then klik **OK**
