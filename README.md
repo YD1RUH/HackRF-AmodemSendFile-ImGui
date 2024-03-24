@@ -14,9 +14,16 @@ The use of python Amodem for sending a file via RF using Rig/Transciever
 
 ## Additional
 If you want to create virtual sink audio follow this step:
-- install depencies `sudo apt-get install pavucontrol portaudio19-dev`
-- open file config pulse audio using: `sudo nano /etc/pulse/default.pa`, at the bottom of file append this line: `load-module module-null-sink sink_name=virtual_sink sink_properties=device.description=virtual_sink`
-- restart pulseaudio `pulseaudio -k` and `pulseaudio --start`
+- install depencies \
+  `sudo apt-get install pavucontrol portaudio19-dev`
+- open file config pulse audio using: \
+  `sudo nano /etc/pulse/default.pa`\
+  at the bottom of file append this line: \
+  `load-module module-null-sink sink_name=virtual_sink sink_properties=device.description=virtual_sink`
+- restart pulseaudio: \
+  `pulseaudio -k` \
+  and \
+  `pulseaudio --start`
 
 ## Notice
 - make sure set all input and output audio at level **80%**
