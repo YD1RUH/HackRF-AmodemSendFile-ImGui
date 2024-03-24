@@ -1,7 +1,7 @@
 # HackRF-AmodemSendFile-ImGui
 The use of python Amodem for sending a file via RF using HackRF
 
-![image](https://github.com/YD1RUH/HackRF-AmodemSendFile-ImGui/blob/main/HackRF-AmodemSendFile.jpg)
+![image](https://github.com/YD1RUH/HackRF-AmodemSendFile-ImGui/blob/support-hamlib/AmodemSendFileRig.png)
 
 ## Requirement
 - Linux Operating System
