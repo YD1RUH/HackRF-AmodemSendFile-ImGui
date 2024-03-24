@@ -19,9 +19,16 @@ The use of python Amodem for sending a file via RF using HackRF
 
 ## Additional
 If you want to create virtual sink audio follow this step:
-- install depencies `sudo apt-get install pavucontrol portaudio19-dev`
-- open file config pulse audio using: `sudo nano /etc/pulse/default.pa`, at the bottom of file append this line: `load-module module-null-sink sink_name=virtual_sink sink_properties=device.description=virtual_sink`
-- restart pulseaudio `pulseaudio -k` and `pulseaudio --start`
+- install depencies \
+  `sudo apt-get install pavucontrol portaudio19-dev`
+- open file config pulse audio using: \
+  `sudo nano /etc/pulse/default.pa`\
+  at the bottom of file append this line: \
+  `load-module module-null-sink sink_name=virtual_sink sink_properties=device.description=virtual_sink`
+- restart pulseaudio \
+  `pulseaudio -k`\
+  and \
+  `pulseaudio --start`
 
 ## How To Calibrate
 ### two side with hackrf each side
@@ -35,10 +42,14 @@ If you want to create virtual sink audio follow this step:
 
 ## How To Use
 - Download the .zip file
-- Extrac the zip `unzip HackRF-AmodemSendFile-ImGui-main.zip`
-- go into the directory `cd HackRF-AmodemSendFile-ImGui-main`
-- make all file executable `chmod +x *`
-- Open terminal, then run `./AmodemSendFile-ImGUI`
+- Extrac the zip \
+  `unzip HackRF-AmodemSendFile-ImGui-main.zip`
+- go into the directory \
+  `cd HackRF-AmodemSendFile-ImGui-main`
+- make all file executable \
+  `chmod +x *`
+- Open terminal, then run \
+  `./AmodemSendFile-ImGUI`
 ### Only have 1 hackrf (left side) and 1 rtlsdr (right side)
 **RTL-SDR (run this first)**
 - right side open terminal then open sdr software **gqrx**, **sdr++**, **etc**
