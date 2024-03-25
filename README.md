@@ -25,6 +25,18 @@ If you want to create virtual sink audio follow this step:
   and \
   `pulseaudio --start`
 
+## Installation
+- clone the repository : \
+  `git clone https://github.com/YD1RUH/HackRF-AmodemSendFile-ImGui.git`
+- get into repository directory : \
+  `cd HackRF-AmodemSendFile-ImGui` 
+- Change branch to support-hamlib : \
+  `git checkout support-hamlib` 
+- make executable : \
+  `chmod +x *`
+- run the programm : \
+  `./AmodemSendFileRig-ImGUI`
+
 ## Notice
 - make sure set all input and output audio at level **80%**
 
